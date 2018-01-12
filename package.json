@@ -1,0 +1,31 @@
+{
+    "name": "iambalaam.github.io",
+    "version": "1.0.0",
+    "description": "Github pages for iambalaam",
+    "main": "index.js",
+    "scripts": {
+        "build": "webpack",
+        "test": "test"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/iambalaam/iambalaam.github.io.git"
+    },
+    "author": "iambalaam",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/iambalaam/iambalaam.github.io/issues"
+    },
+    "homepage": "https://github.com/iambalaam/iambalaam.github.io#readme",
+    "devDependencies": {
+        "@types/react": "^16.0.34",
+        "@types/react-dom": "^16.0.3",
+        "ts-loader": "^3.2.0",
+        "typescript": "^2.6.2",
+        "webpack": "^3.10.0"
+    },
+    "dependencies": {
+        "react": "^16.2.0",
+        "react-dom": "^16.2.0"
+    }
+}
