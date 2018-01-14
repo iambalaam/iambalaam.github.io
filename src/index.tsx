@@ -1,9 +1,11 @@
 import * as React from 'react';
 import * as reactDOM from 'react-dom';
+import {Nav} from './ui/Nav';
+
 
 const app = () => {
     return (
-        <div>Webpack is working!</div>
+        <Nav />
     );
 }
 
